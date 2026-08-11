@@ -22,9 +22,15 @@ a{color:var(--nu-red)}
 .nu-header{background:#fff;border-bottom:3px solid var(--nu-red);padding:16px 20px}
 .nu-header .wrap{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:24px}
 .nu-header img{height:70px;display:block;flex:none}
-.nu-header .branding{flex:1}
+.nu-header .branding{flex:1;text-align:right}
 .nu-header h1{margin:0 0 2px;font-size:22px;font-weight:700;letter-spacing:.01em;color:#C8102E}
 .nu-header p{margin:0;font-size:13px;color:var(--ink-2);letter-spacing:.02em;text-transform:uppercase}
+
+/* ── Mobile: hide tabchooser ──────────────────────────────── */
+@media (max-width:768px){#tabSpud{display:none}}
+
+/* ── Crawler spud: full width desktop ─────────────────────── */
+#crawlerSpud{width:100% !important;max-width:100% !important}
 
 /* ── Hero ─────────────────────────────────────────────────── */
 .hero{padding:26px 0 22px}
